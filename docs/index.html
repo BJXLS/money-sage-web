@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>moneySage · AI 驱动的个人理财助手</title>
+    <meta
+      name="description"
+      content="MoneySage 帮你自动记账、预算与可视化收支，轻松掌控财务。"
+    />
+    <meta name="theme-color" content="#0b0f1a" />
+    <meta property="og:title" content="moneySage" />
+    <meta property="og:description" content="AI 驱动的个人理财助手" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg fx-grid" aria-hidden="true"></div>
+    <div class="bg glow glow-1" aria-hidden="true"></div>
+    <div class="bg glow glow-2" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="moneySage">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#22d3ee" />
+                <stop offset="1" stop-color="#a78bfa" />
+              </linearGradient>
+            </defs>
+            <path d="M12 3l7 4v10l-7 4-7-4V7l7-4z" stroke="url(#g)" stroke-width="1.5"/>
+            <path d="M8.5 12h7M12 8.5v7" stroke="url(#g)" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <span>MoneySage</span>
+        </a>
+        <nav class="nav">
+          <a href="#features">功能</a>
+          <a href="#screens">截图</a>
+          <a href="#download" class="accent">下载</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-text">
+          <h1>
+            AI 驱动的
+            <span class="gradient">个人理财助手</span>
+          </h1>
+          <p class="subtitle">
+            moneySage 通过智能分类、预算引导与可视化报表，帮助你用更少的时间，做更好的金钱决策。
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#download">立即下载</a>
+            <a class="btn ghost" target="_blank" rel="noreferrer" href="https://github.com/your-org/moneySage">GitHub</a>
+          </div>
+          <ul class="badges">
+            <li>本地优先</li>
+            <li>AI驱动</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="features" class="section container">
+        <h2>核心功能</h2>
+        <div class="grid">
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h10M4 17h7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>AI 快速记账</h3>
+            <p>支持用户通过自然语言描述，系统自动识别账单实体属性，极大降低记账负担。</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>AI数据诊断</h3>
+            <p>接入大模型， 帮助个人进行财务分析诊断，并给出优化建议</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>多维预算</h3>
+            <p>按月度、类别与项目设置预算，超额预警与趋势预测帮助你稳住支出节奏。</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" stroke="currentColor" stroke-width="1.6"/><path d="M8 12l2.5 2.5L16 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>本地优先与加密</h3>
+            <p>核心数据默认本地保存，端到端加密守护隐私，可导入导出备份。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="screens" class="section container">
+        <h2>界面预览</h2>
+        <div class="screens">
+            <div class="screen" style="background-image:url('./images/0.png');background-size:cover;background-position:center;"></div>
+            <div class="screen" style="background-image:url('./images/1.png');background-size:cover;background-position:center;"></div>
+            <div class="screen" style="background-image:url('./images/2.png');background-size:cover;background-position:center;"></div>
+            <div class="screen" style="background-image:url('./images/3.png');background-size:cover;background-position:center;"></div>
+            <div class="screen" style="background-image:url('./images/4.png');background-size:cover;background-position:center;"></div>
+          </div>
+      </section>
+
+      <section id="download" class="section container">
+        <h2>下载与安装</h2>
+        <p class="center">
+          从 GitHub Releases 获取最新版安装包
+        </p>
+        <div class="downloads">
+          <a class="btn primary wide" href="https://github.com/your-org/moneySage/releases/latest/download/moneySage-Setup.exe">
+            下载 Windows 版 (.exe)
+          </a>
+          <a class="btn outline wide" href="">
+            macOS版 尽情期待 
+          </a>
+          <a class="btn outline wide" href="">
+            下载 Linux 版 尽情期待
+          </a>
+        </div>
+        <ul class="notes">
+          <li>Windows 首次安装如有 SmartScreen 提示，请选择“仍要运行”。</li>
+        </ul>
+      </section>
+
+      <section id="faq" class="section container">
+        <h2>常见问题</h2>
+        <details>
+          <summary>moneySage 是否免费？</summary>
+          <p>本产品完全免费，使用AI功能需要填入个人API key。产品核心代码陆续开源中</p>
+        </details>
+        <details>
+          <summary>我的数据是否安全？</summary>
+          <p>我们坚持本地优先。后续将上线数据加密功能，尽情期待</p>
+        </details>
+        <details>
+          <summary>如何从其他应用迁移？</summary>
+          <p>支持AI快速记账，可以通过自然语言描述，快速迁移数据</p>
+        </details>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="y"></span> moneySage</span>
+        <div class="links">
+          <a target="_blank" rel="noreferrer" href="https://github.com/your-org/moneySage">GitHub</a>
+          <a href="#download">下载</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+  </html>
+
+
